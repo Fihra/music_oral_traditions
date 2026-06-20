@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/hydra-synth/dist/hydra-synth.js"></script>
+    </head>
+    <body>
+        <h1>Music Oral Traditions</h1>
+
+        
+        <div class="current-piece">
+            <!-- <h2 class="small">Hello</h2> -->
+             <audio id="audio" src="simple_melody.wav"></audio>
+            <button id="play-current-btn">Play</button>
+            <canvas id="this-piece"></canvas>
+        </div>
+
+        <div class="new-piece">
+            <button id="record-btn">Record</button>
+            <canvas id="new-section"></canvas>
+        </div>
+
+        <canvas id="hydra-canvas"></canvas>
+        <script src="sketch.js"></script>
+        
+    </body>
+</html>

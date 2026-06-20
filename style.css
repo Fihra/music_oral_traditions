@@ -1,0 +1,71 @@
+body {
+    /* display: grid; */
+    /* place-items: center; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+button {
+    background: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    line-height: normal;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#hydra-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.current-piece, .new-piece {
+    border: 1px solid white;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    z-index: -5;
+}
+
+.new-piece {
+    margin-top: 200px;
+}
+
+#this-piece,#new-section {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    z-index: -3;
+}
+
+
+#play-current-btn  {
+    position: absolute;
+    top: 13%;
+    left: 49%;
+    color: white;
+    background-color: red;
+    z-index: 5;
+}
+
+ #record-btn {
+    position: absolute;
+    top: 49%;
+    left: 48%;
+    color: white;
+    background-color: blue;
+    z-index: 5;
+ }
