@@ -8,15 +8,16 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/tone"></script>
         <script src="https://cdn.jsdelivr.net/npm/hydra-synth/dist/hydra-synth.js"></script>
     </head>
     <body>
         <h1>Music Oral Traditions</h1>
 
-        
+        <button id="tone-test">hit me</button>
         <div class="current-piece">
             <!-- <h2 class="small">Hello</h2> -->
-             <audio id="audio" src="simple_melody.wav"></audio>
+             <audio id="audio-track" src="simple_melody.wav"></audio>
             <button id="play-current-btn">Play</button>
             <canvas id="this-piece"></canvas>
         </div>
